@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+ 
+/* basic styling for all html elements start here */
+body, html{
+
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    width:100%;
+    height:100%;
+}
+p{
+
+    font-size:16px;
+	font-weight:medium;
+	line-height:1.6em;
+
+}
+h1, h2, h3, h4, b{
+
+    font-family: 'Bebas Neue', cursive;
+    font-weight:bold;
+    color: #363958;
+    letter-spacing: 1px;
+    margin:auto;    
+}
+h1{
+
+    font-size:80px;
+}
+h2{
+    font-size:64px;
+}
+h3{
+
+    font-size:48px;
+}
+h4{
+
+    font-size: 24px;
+}
+b{
+
+    font-size:36px;
+    font-weight:bold;
+}
+a{
+    font-weight: bold;
+    font-size:16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    color:#363958;
+
+}
+ li{
+
+    list-style: none;
+    display: inline-block;   
+}
+ul{
+
+    float: right;
+}
+
+header{
+
+	  padding:20px 0;
+}
+.container{
+
+    width:80%;
+    margin:auto; 
+}
+/* basic styling for all html elements end here */
+
+/* navbar, hire-me, about-me section styling start here */
+.navbar{
+	
+	padding-bottom:100px;
+}
+.hire-me, .about-me{
+	
+	height:500px;
+	padding-bottom:100px;
+}
+.color-highlight{
+	
+	color:#4289FF;
+}
+.equal-width{
+
+    width:48%;
+    float:left;
+    padding-left: 2%;
+}
+.equal-width .link-button{
+
+    color:#fff;
+    background-image: linear-gradient(45deg, #22C7DE, #4289FF);
+    padding:10px 25px;
+    border-radius:5px;
+    margin:20px 0;
+}
+.equal-width{
+
+    width:48%;
+    float:left;
+    padding-left: 2%;
+}
+.equal-width img{
+
+    width:100%;
+}
+/* navbar, hire-me, about-me section styling end here */
+
+/* working project section styling start here */
+.working-project{
+	
+	background:#F8F9FC;
+	padding:100px 0;
+	text-align:center;
+	height:500px;
+}
+.working-project .project-details{
+	
+	width:30%;
+	float:left;
+}
+.project-details{
+	
+	background:#fff;
+	padding:1%;
+	border-radius:10px;
+}
+.heading{
+	
+	margin-bottom:50px;
+}
+.project-details img{
+	
+	width:100%;
+}
+.project-details .project-image{
+	
+	margin-bottom:20px;
+}
+.working-project #single-project{
+	
+	margin:0 2%;
+}
+.project-details .project-desc{
+
+    margin-bottom: 20px;    
+}
+/* working project section styling end here */
+
+/* testimonial section styling start here */
+.testimonial{
+
+    padding:100px 0;
+    text-align: center;
+    height:500px;
+}
+.testimonial .people-say{
+
+    width:45.5%;
+    float:left;
+    padding:2%;
+    text-align: justify;
+}
+.testimonial #single-testimonial{
+
+    border-image:  linear-gradient(45deg,  #22C7DE, #4289FF);
+    border-right:8px solid;
+    border-image-slice:1;
+}
+.client-image{
+
+    text-align: center;
+}
+.client-image img{
+
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border: 2px solid #eee;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+}
+.client-image hr{
+
+    width:50px;
+    height:3px;
+    background-color:#4289FF;
+    margin-top: 20px;
+    border:1px solid transparent;
+    border-radius:10px;
+}
+.clients-feedback{
+
+    margin-bottom:20px;
+}
+/* testimonial section styling end here */
+
+/* contact me section styling start here */
+.contact-me{
+	
+	background:#f7f8fd;
+    padding:50px 0;
+    height:500px;
+	
+}
+.work-inquiry{
+    
+    width:80%; 
+    margin:auto;
+    background-image:url('../images/projectimage/image-4.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    padding:100px 40px 140px 40px;
+    color:#fff;
+
+}
+.contact-details{
+
+    text-align: center;
+    margin-top: 100px;
+}
+.contact-details img{
+
+    width:40px;
+    height:40px;
+    display: inline-block;
+  
+}
+.contact-details #contact-mail{
+
+    display:block;
+    margin:20px 0;
+    font-size:36px;
+    font-weight: 900;
+    color:#363958;
+}
+.contact-details a{
+    
+    display: inline-block;
+    margin: 0; 
+}
+.contact-details b{
+
+    color:#696871;
+}
+.contact-details #single-link{
+
+    margin: 0 20px;
+}
+.work-inquiry h3{
+
+    color:#fff;
+}
+.equal-width .chat{
+
+    float:right;
+    color:#fff;
+    background:#F9BA61;
+    padding:10px 25px;
+    border-radius:8px;
+}
+/* contact me section styling end here */
